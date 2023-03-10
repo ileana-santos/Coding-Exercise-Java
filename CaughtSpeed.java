@@ -1,7 +1,9 @@
 public class CaughtSpeed {
+    
     public static void main(String[] args) {
         System.out.println(caughtSpeeding(55, false));
     }
+    
     public static int caughtSpeeding(int speed, boolean isBirthday) {
         int noticket = 0;
         int smallticket = 1;
