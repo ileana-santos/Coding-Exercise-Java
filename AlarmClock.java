@@ -3,10 +3,12 @@ return a string of the form "7:00" indicating when the alarm clock should ring. 
 on the weekend it should be "10:00". Unless we are on vacation -- then on weekdays it should be "10:00" and weekends it should be "off". */
 
 public class AlarmClock {
+    
     public static void main(String[] args) {
 
         System.out.println(alarmClock(0,false));
     }
+    
     public static String alarmClock(int day, boolean vacation) {
 
         if(day > 0 && day < 6){
