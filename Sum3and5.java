@@ -1,4 +1,3 @@
-public class Sum3and5 {
     /*  =====================
         Sum 3 and 5 Challenge
         =====================
@@ -8,6 +7,9 @@ public class Sum3and5 {
         *break out of the loop once you have found 5 numbers that met the conditions.
         *After breaking out of the loop, print the sum of the numbers that met the conditions.
         *Note: type all code in the main method */
+
+public class Sum3and5 {
+    
     public static void main(String[] args) {
         int counter = 0;
         int sum = 0;
