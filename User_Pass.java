@@ -30,7 +30,6 @@ public class User_Pass {
 
         if (userIndex >= 0 && pass[userIndex].equals(password)) {
             System.out.println("Hello " + user[userIndex] + "!");
-            System.out.println("Te amo mucho!");
         } else {
             System.out.println("Incorrect Login!");
         }
